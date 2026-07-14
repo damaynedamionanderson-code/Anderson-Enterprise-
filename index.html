@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anderson Enterprises | Forging the Frame. Powering the Future.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <canvas id="particleCanvas"></canvas>
+    
+    <div class="container">
+        <header class="header">
+            <nav class="nav">
+                <div class="logo">
+<img src="images/Anderson.logo.svg" alt="Anderson Enterprises Logo" class="logo-image">
+                </div>
+                <div class="hamburger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="labs.html" class="nav-link">Labs</a></li>
+                    <li><a href="forge.html" class="nav-link">Forge</a></li>
+                    <li><a href="aerospace.html" class="nav-link">Aerospace</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li><a href="funding.html" class="nav-link">Funding</a></li>
+                    <li><a href="giving-back.html" class="nav-link">Giving Back</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Forging the Frame. Powering the Future.</h1>
+                <p class="hero-description">
+                    Building terrestrial infrastructure, advanced armor, and celestial spacecraft 
+                    to reshape the boundaries of human capability.
+                </p>
+                <p class="hero-tagline" style="font-size: 1.5rem; font-weight: 700; color: var(--primary); margin-top: 1.5rem; text-transform: uppercase; letter-spacing: 2px;">
+                    The Future is Inevitable
+                </p>
+                <div class="action-buttons">
+                    <a href="contact.html" class="btn-primary" style="text-decoration: none; display: inline-block;">Contact Us</a>
+                    <a href="capability-statement.html" class="btn-secondary" style="text-decoration: none; display: inline-block;">Project Manifest</a>
+                </div>
+            </div>
+        </main>
+
+        <section class="why-section">
+            <div class="why-container">
+                <h2 class="why-title">Why Anderson Enterprises</h2>
+                <p class="why-subtitle">From industrial automation to precision aerospace components</p>
+                <div class="why-grid">
+                    <div class="why-item">
+                        <div class="why-icon">🏭</div>
+                        <h3>Industrial Automation</h3>
+                        <p>Advanced manufacturing systems and automated production lines</p>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-icon">✈️</div>
+                        <h3>Aerospace Components</h3>
+                        <p>Precision engineering for space and aviation applications</p>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-icon">🤖</div>
+                        <h3>AI & Robotics</h3>
+                        <p>Cutting-edge artificial intelligence and robotic systems</p>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-icon">⚡</div>
+                        <h3>Clean Energy</h3>
+                        <p>Sustainable power solutions and energy infrastructure</p>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-icon">🛡️</div>
+                        <h3>Defense Systems</h3>
+                        <p>Advanced tactical ballistics and armored vehicle technology</p>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-icon">🧠</div>
+                        <h3>Neural Interfaces</h3>
+                        <p>Next-generation brain-computer interface systems</p>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-icon">🛰️</div>
+                        <h3>Satellite Networks</h3>
+                        <p>Orbital surveillance and global communication arrays</p>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-icon">🔬</div>
+                        <h3>Advanced Materials</h3>
+                        <p>Super-alloys and next-generation material science</p>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-icon">🏛️</div>
+                        <h3>Anderson Foundation</h3>
+                        <p>Giving back through education, disaster relief, and community development. Technology should serve people.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="portfolio-section">
+            <div class="portfolio-container">
+                <h2 class="portfolio-title">Featured Projects</h2>
+                <p class="section-text" style="text-align: center; margin-bottom: 2rem;">Currently in development: Anderson Forge Dashboard, Project NEURAL-7 Neural Interface</p>
+            </div>
+        </section>
+
+        <section class="process-section">
+            <div class="process-container">
+                <h2 class="process-title">Our Process</h2>
+                <div class="process-steps">
+                    <div class="process-step">
+                        <div class="step-number">1</div>
+                        <h3>Requirement Mapping</h3>
+                        <p>Discovery calls to define the "Mission Parameters"</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">2</div>
+                        <h3>Prototyping & Design</h3>
+                        <p>Iterative UI builds and system architecture (Forge phase)</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">3</div>
+                        <h3>Core Development</h3>
+                        <p>Writing clean, efficient code (Labs phase)</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">4</div>
+                        <h3>Deployment</h3>
+                        <p>Putting the system live in production environment</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tech-stack-section">
+            <div class="tech-stack-container">
+                <h2 class="tech-stack-title">Technical Expertise</h2>
+                <div class="tech-badges">
+                    <span class="tech-badge">C++</span>
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">Linux</span>
+                    <span class="tech-badge">Embedded Systems</span>
+                    <span class="tech-badge">JavaScript</span>
+                    <span class="tech-badge">React</span>
+                    <span class="tech-badge">Node.js</span>
+                    <span class="tech-badge">AWS</span>
+                    <span class="tech-badge">Docker</span>
+                    <span class="tech-badge">Kubernetes</span>
+                    <span class="tech-badge">TensorFlow</span>
+                    <span class="tech-badge">ROS</span>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <p class="copyright">© 2026 Anderson Enterprises. All rights reserved.</p>
+                <p class="copyright">Christ is real</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
